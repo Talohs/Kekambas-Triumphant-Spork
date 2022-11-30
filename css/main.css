@@ -56,3 +56,23 @@ body {
 .posts{
     grid-area: posts;
 }
+
+.post-card{
+    border: 1px solid black;
+    padding: 1vh;
+}
+
+.card-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-links > a{
+    text-decoration: none;
+    color: skyblue;   
+}
+
+.card-links > a:hover{
+    text-decoration: underline;
+    background-color: rgb(8, 103, 71);
+}
