@@ -1,19 +1,21 @@
 body {
+    background-image: url("../Images/silas-baisch-K785Da4A_JA-unsplash.jpg");
     background-color: blueviolet;
-    margin: 0;
+    
 }
 
-.container{
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 10vh 40% 1fr;
-    grid-template-areas: 
-    "navbar navbar navbar navbar navbar navbar"
-    ". prof-pic prof-info prof-info prof-info ."
-    ". posts posts posts posts .";
-}
-
+/* @media(min-width: 750px){ */
+    .container{
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10vh 40% 1fr;
+        grid-template-areas: 
+        "navbar navbar navbar navbar navbar navbar"
+        ". prof-pic prof-info prof-info prof-info ."
+        ". posts posts posts posts .";
+    }
+/* } This is how you do a media query */
 .prof-pic{
     grid-area: prof-pic;
     display: flex;
