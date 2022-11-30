@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 7.5vh repeat(2, 1fr);
+    grid-template-rows: 10vh 40% 1fr;
     grid-template-areas: 
     "navbar navbar navbar navbar navbar navbar"
     ". prof-pic prof-info prof-info prof-info ."
@@ -60,6 +60,7 @@ body {
 .post-card{
     border: 1px solid black;
     padding: 1vh;
+    margin: 2vh 0;
 }
 
 .card-links{
