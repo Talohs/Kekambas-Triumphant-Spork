@@ -4,10 +4,10 @@ body {
 }
 
 .container{
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px repeat(2, 1fr);
+    grid-template-rows: 10vh repeat(2, 1fr);
     grid-template-areas: 
     "navbar navbar navbar navbar navbar navbar"
     ". prof-pic prof-info prof-info prof-info ."
@@ -20,6 +20,18 @@ body {
 
 .navbar{
     grid-area: navbar;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar a{
+    color: wheat;
+    text-decoration: none;
 }
 
 .prof-info{
